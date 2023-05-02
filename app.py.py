@@ -5,9 +5,9 @@ import time
 import pandas as pd
 
 #!pip install imbalanced-learn
-pip install -U imbalanced-learn
+#pip install -U imbalanced-learn
+import temp
 import imblearn
-#import temp
 
 from imblearn.over_sampling import RandomOverSampler
 
