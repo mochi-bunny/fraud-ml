@@ -6,10 +6,10 @@ import pandas as pd
 
 #!pip install imbalanced-learn
 #pip install -U imbalanced-learn
-import temp
-import imblearn
+#import temp
+#import imblearn
 
-from imblearn.over_sampling import RandomOverSampler
+#from imblearn.over_sampling import RandomOverSampler
 
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, ConfusionMatrixDisplay
