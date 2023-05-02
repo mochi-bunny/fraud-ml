@@ -7,7 +7,7 @@ import pandas as pd
 #!pip install imbalanced-learn
 #pip install -U imbalanced-learn
 #import temp
-#import imblearn
+import imblearn
 
 #from imblearn.over_sampling import RandomOverSampler
 
