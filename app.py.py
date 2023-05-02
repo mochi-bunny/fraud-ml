@@ -5,9 +5,10 @@ import time
 import pandas as pd
 
 #!pip install imbalanced-learn
-$ pip install imblearn
+pip install -U imbalanced-learn
+import imblearn
+#import temp
 
-import temp
 from imblearn.over_sampling import RandomOverSampler
 
 from sklearn.linear_model import LogisticRegression
