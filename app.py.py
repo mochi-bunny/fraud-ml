@@ -4,7 +4,7 @@
 import time
 import pandas as pd
 
-#!pip install imbalanced-learn
+!pip install imbalanced-learn
 import imblearn
 from imblearn.over_sampling import RandomOverSampler
 
