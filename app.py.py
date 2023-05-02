@@ -4,7 +4,7 @@
 import time
 import pandas as pd
 
-!pip install imbalanced-learn
+#!pip install imbalanced-learn
 import imblearn
 from imblearn.over_sampling import RandomOverSampler
 
@@ -31,7 +31,7 @@ from sklearn.model_selection import train_test_split
 X_train,X_test,Y_train,Y_test=train_test_split(X,Y,test_size=0.2,stratify=Y,random_state=42)
 
 
-!pip install xgboost
+#!pip install xgboost
 import xgboost as xgb
 
 lr= LogisticRegression(solver='lbfgs', max_iter=1000)
